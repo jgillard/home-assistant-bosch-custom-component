@@ -63,15 +63,15 @@ EcusRecordingSensors = [
     {
         "name": "central heating",
         "attr": "CH",
-        "unitOfMeasure": UnitOfVolume.CUBIC_METERS,
-        "deviceClass": SensorDeviceClass.GAS,
+        "unitOfMeasure": UnitOfEnergy.KILO_WATT_HOUR,
+        "deviceClass": SensorDeviceClass.ENERGY,
         "stateClass": SensorStateClass.TOTAL,
     },
     {
         "name": "hot water",
         "attr": "HW",
-        "unitOfMeasure": UnitOfVolume.CUBIC_METERS,
-        "deviceClass": SensorDeviceClass.GAS,
+        "unitOfMeasure": UnitOfEnergy.KILO_WATT_HOUR,
+        "deviceClass": SensorDeviceClass.ENERGY,
         "stateClass": SensorStateClass.TOTAL,
     },
 ]

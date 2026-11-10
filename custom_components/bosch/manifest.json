@@ -6,7 +6,7 @@
   "dependencies": ["network", "persistent_notification"],
   "after_dependencies": ["http", "recorder"],
   "codeowners": ["@pszafer"],
-  "requirements": ["bosch-thermostat-client==v0.28.2"],
+  "requirements": ["bosch-thermostat-client @ https://github.com/bosch-thermostat/bosch-thermostat-client-python/archive/384112c71eccf39719aee8040ddc8af29e91866c.zip", "slixmpp==1.17.0"],
   "version": "0.29.0b1",
   "zeroconf": ["_buderus._tcp.local."],
   "config_flow": true,
